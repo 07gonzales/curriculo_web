@@ -1,5 +1,29 @@
 /* Arquivo de estilização */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000;
+}
 
-h1{
-    color: red;
+header{
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foto-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white
 }
